@@ -1,5 +1,5 @@
 dnl Process this file with autoconf to produce a configure script.
-AC_INIT([cracklib], [2.9.12], [cracklib-devel@lists.sourceforge.net])
+AC_INIT([cracklib], [2.10.0], [cracklib-devel@lists.sourceforge.net])
 AM_INIT_AUTOMAKE
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_MACRO_DIR([m4])
@@ -15,11 +15,7 @@ AC_PROG_INSTALL
 AC_PROG_LN_S
 AC_PROG_MAKE_SET
 
-AC_CHECK_HEADERS(unistd.h)
-AC_CHECK_HEADERS(fcntl.h)
-AC_CHECK_HEADERS(inttypes.h)
-AC_CHECK_HEADERS(stdint.h)
-AC_CHECK_HEADERS(pthread.h)
+AC_CHECK_HEADERS([unistd.h fcntl.h inttypes.h stdint.h pthread.h endian.h])
 
 AC_ARG_WITH([zlib],
    [AS_HELP_STRING([--without-zlib], [build without zlib support @<:@default=auto@:>@])])
@@ -96,6 +92,7 @@ AM_CONDITIONAL(BUILD_PYTHON,[test "$build_python" = "yes"])
 
 dnl Handle local dict compiling properly
 AC_SUBST(CROSS_COMPILING, $cross_compiling)
+AM_CONDITIONAL([NOT_CROSS_COMPILING], [test "$cross_compiling" = "no"])
 
 AC_CONFIG_FILES([util/Makefile lib/Makefile doc/Makefile python/Makefile Makefile \
 		python/setup.py \
