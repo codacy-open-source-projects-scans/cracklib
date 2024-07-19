@@ -1,5 +1,5 @@
 dnl Process this file with autoconf to produce a configure script.
-AC_INIT([cracklib], [2.10.0], [cracklib-devel@lists.sourceforge.net])
+AC_INIT([cracklib], [2.10.1-dev], [cracklib-devel@lists.sourceforge.net])
 AM_INIT_AUTOMAKE
 AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_MACRO_DIR([m4])
@@ -96,6 +96,6 @@ AM_CONDITIONAL([NOT_CROSS_COMPILING], [test "$cross_compiling" = "no"])
 
 AC_CONFIG_FILES([util/Makefile lib/Makefile doc/Makefile python/Makefile Makefile \
 		python/setup.py \
-		po/Makefile.in m4/Makefile dicts/Makefile cracklib.spec])
+		po/Makefile.in dicts/Makefile cracklib.spec])
 AC_OUTPUT
 
