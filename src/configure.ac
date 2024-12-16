@@ -5,7 +5,7 @@ AC_CONFIG_HEADERS([config.h])
 AC_CONFIG_MACRO_DIR([m4])
 
 dnl Set of available languages.
-ALL_LINGUAS="as be bn_IN ca cs da de el es eu fi fr gu he hi hu id it ja kk kn ko lt ml mr nb nl or pa pl pt pt_BR ru sk sl sq sv ta te tr uk zh_CN zh_TW"
+ALL_LINGUAS="as be bn_IN ca cs da de el es eu fi fr fur gu he hi hu id it ja ka kk kn ko lt ml mr nb nl or pa pl pt pt_BR ro ru si sk sl sq sv ta te tr uk zh_CN zh_TW"
 
 dnl Checks for programs.
 LT_INIT
@@ -51,7 +51,8 @@ AC_CHECK_FUNCS(strdup)
 AC_CHECK_FUNCS(getpwuid_r)
 
 dnl internationalization macros
-AM_GNU_GETTEXT_VERSION([0.17])
+AM_GNU_GETTEXT_REQUIRE_VERSION([0.19.8])
+AM_GNU_GETTEXT_VERSION([0.19.6])
 AM_GNU_GETTEXT([external])
 
 dnl Control default dictname

@@ -1,6 +1,9 @@
 // Retrieved on 2024-07-26 from https://gist.github.com/panzi/6856583
 // https://gist.githubusercontent.com/panzi/6856583/raw/12f9f02f1298bb0bc054ba667bccc0cf032cdb03/portable_endian.h
 
+// Per https://gist.github.com/panzi/6856583?permalink_comment_id=3712226#gistcomment-3712226
+// the upstream gist is not being updated, so this will include additional fixes and diverge from the above source.
+
 // "License": Public Domain
 // I, Mathias Panzenböck, place this file hereby into the public domain. Use it at your own risk for whatever you like.
 // In case there are jurisdictions that don't support putting things in the public domain you can also consider it to
@@ -57,14 +60,30 @@
 
 #	include <sys/endian.h>
 
+/* Keep these definitions for compatibility. */
+#	ifndef be16toh
 #	define be16toh(x) betoh16(x)
+#	endif
+
+#	ifndef le16toh
 #	define le16toh(x) letoh16(x)
+#	endif
 
+#	ifndef be32toh
 #	define be32toh(x) betoh32(x)
-#	define le32toh(x) letoh32(x)
+#	endif
 
+#	ifndef le32toh
+#	define le32toh(x) letoh32(x)
+#	endif
+
+#	ifndef be64toh
 #	define be64toh(x) betoh64(x)
+#	endif
+
+#	ifndef le64toh
 #	define le64toh(x) letoh64(x)
+#	endif
 
 #elif defined(__WINDOWS__)
 
