@@ -1,0 +1,85 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Jan Dittberner <jandd@debian.org>, 2016. #zanata
+# Baltazaras Zukauskas <baltazaras.zukauskas@gmail.com>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: cracklib 2.9.6\n"
+"Report-Msgid-Bugs-To: cracklib-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2024-12-23 10:28-0600\n"
+"PO-Revision-Date: 2025-03-04 07:30+0000\n"
+"Last-Translator: Baltazaras Zukauskas <baltazaras.zukauskas@gmail.com>\n"
+"Language-Team: Lithuanian <https://translate.fedoraproject.org/projects/"
+"cracklib/master/lt/>\n"
+"Language: lt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
+"19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
+"1 : 2);\n"
+"X-Generator: Weblate 5.10.2\n"
+
+#: lib/fascist.c:527
+msgid "it is based on your username"
+msgstr "jis pagrįstas jūsų vartotojo vardu"
+
+#: lib/fascist.c:587
+msgid "it is based upon your password entry"
+msgstr "jis pagrįstas jūsų slaptažodžio įrašu"
+
+#: lib/fascist.c:604 lib/fascist.c:612
+msgid "it is derived from your password entry"
+msgstr "jis gautas iš jūsų slaptažodžio įrašo"
+
+#: lib/fascist.c:624
+msgid "it is derivable from your password entry"
+msgstr "jis gaunamas iš jūsų slaptažodžio įrašo"
+
+#: lib/fascist.c:636
+msgid "it's derivable from your password entry"
+msgstr "jis gaunamas iš jūsų slaptažodžio įrašo"
+
+#: lib/fascist.c:692
+msgid "you are not registered in the password file"
+msgstr "jūs neužregistruotas slaptažodžių byloje"
+
+#: lib/fascist.c:729
+msgid "it is WAY too short"
+msgstr "jis STIPRIAI per trumpas"
+
+#: lib/fascist.c:734
+msgid "it is too short"
+msgstr "jis per trumpas"
+
+#: lib/fascist.c:751
+msgid "it does not contain enough DIFFERENT characters"
+msgstr "jis neturi pakankamai SKIRTINGŲ simbolių"
+
+#: lib/fascist.c:765
+msgid "it is all whitespace"
+msgstr "jis sudarytas tik iš tarpų"
+
+#: lib/fascist.c:784
+msgid "it is too simplistic/systematic"
+msgstr "jis per daug paprastas/sistemingas"
+
+#: lib/fascist.c:789
+msgid "it looks like a National Insurance number."
+msgstr "jis atrodo kaip nacionalinis draudimo numeris."
+
+#: lib/fascist.c:827
+msgid "it is based on a dictionary word"
+msgstr "jis pagrįstas žodžiu iš žodyno"
+
+#: lib/fascist.c:853
+msgid "it is based on a (reversed) dictionary word"
+msgstr "jis pagrįstas žodžiu iš žodyno, parašytu atvirkščiai"
+
+#: lib/fascist.c:893
+msgid "error loading dictionary"
+msgstr "klaida įkeliant žodyną"
+
+#~ msgid "it's derived from your password entry"
+#~ msgstr "jis gautas iš jūsų slaptažodžio įrašo"

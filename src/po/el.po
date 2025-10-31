@@ -1,0 +1,86 @@
+# translation of el.po to Hellenic-Ελληνικά-Greek
+# translation of el.po to Greek
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# Kostas Boukouvalas <quantis@hellug.gr>, 2005.
+# Hellenic SuSE Translation Group <hstg@billg.gr>, 2005.
+# Jan Dittberner <jandd@debian.org>, 2016. #zanata
+# Jim Spentzos <jimspentzos2000@gmail.com>, 2025.
+msgid ""
+msgstr ""
+"Project-Id-Version: cracklib 2.9.6\n"
+"Report-Msgid-Bugs-To: cracklib-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2024-12-23 10:28-0600\n"
+"PO-Revision-Date: 2025-06-22 11:27+0000\n"
+"Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
+"Language-Team: Greek <https://translate.fedoraproject.org/projects/cracklib/"
+"master/el/>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.12.2\n"
+
+#: lib/fascist.c:527
+msgid "it is based on your username"
+msgstr "είναι βασισμένο στο όνομα χρήστη"
+
+#: lib/fascist.c:587
+msgid "it is based upon your password entry"
+msgstr "είναι βασισμένο στην εισαγωγή κωδικού"
+
+#: lib/fascist.c:604 lib/fascist.c:612
+msgid "it is derived from your password entry"
+msgstr "συνάγεται από την εισαγωγή κωδικού"
+
+#: lib/fascist.c:624
+msgid "it is derivable from your password entry"
+msgstr "συνάγεται από την εισαγωγή κωδικού"
+
+#: lib/fascist.c:636
+msgid "it's derivable from your password entry"
+msgstr "συνάγεται από την εισαγωγή κωδικού"
+
+#: lib/fascist.c:692
+msgid "you are not registered in the password file"
+msgstr "δεν είστε καταχωρημένοι στο αρχείο συνθηματικών"
+
+#: lib/fascist.c:729
+msgid "it is WAY too short"
+msgstr "είναι ΠΟΛΥ μικρό"
+
+#: lib/fascist.c:734
+msgid "it is too short"
+msgstr "είναι πολύ μικρό"
+
+#: lib/fascist.c:751
+msgid "it does not contain enough DIFFERENT characters"
+msgstr "δεν περιέχει αρκετούς ΔΙΑΦΟΡΕΤΙΚΟΥΣ χαρακτήρες"
+
+#: lib/fascist.c:765
+msgid "it is all whitespace"
+msgstr "είναι κενό"
+
+#: lib/fascist.c:784
+msgid "it is too simplistic/systematic"
+msgstr "είναι πολύ απλό/συστηματικό"
+
+#: lib/fascist.c:789
+msgid "it looks like a National Insurance number."
+msgstr "μοιάζει με αριθμό εθνικής ασφάλισης."
+
+#: lib/fascist.c:827
+msgid "it is based on a dictionary word"
+msgstr "βασίζεται σε λήμμα λεξικού"
+
+#: lib/fascist.c:853
+msgid "it is based on a (reversed) dictionary word"
+msgstr "βασίζεται σε (ανάστροφο) λήμμα λεξικού"
+
+#: lib/fascist.c:893
+msgid "error loading dictionary"
+msgstr "σφάλμα φόρτωσης καταλόγου"
+
+#~ msgid "it's derived from your password entry"
+#~ msgstr "συνάγεται από την εισαγωγή κωδικού"
